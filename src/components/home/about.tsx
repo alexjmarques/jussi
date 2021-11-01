@@ -7,7 +7,7 @@ import "../../styles/about.scss";
 
 export const About = () => {
   return (
-    <Container fluid className="about" id="quem-somos">
+    <Container fluid className="about" id="about">
       <Container>
         <Row>
           <Col xs={4} className="aboutText">

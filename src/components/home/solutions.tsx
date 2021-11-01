@@ -10,7 +10,7 @@ import s4 from "../../assets/s4.png";
 
 export const Solutions = () => {
   return (
-    <Container fluid className="solutions">
+    <Container fluid className="solutions" id="solutions">
       <Container>
         <Row>
           <h1 className="title"><span>//</span> Nossas soluções</h1>

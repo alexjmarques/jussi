@@ -1,4 +1,5 @@
 import { FiShoppingCart, FiSearch } from "react-icons/fi";
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 import LogoJussi from "../../assets/jussiLogo.svg";
 import { Container, Row, Col, Image, Button, Nav, Form } from 'react-bootstrap';
 
@@ -17,10 +18,10 @@ export const Header = () => {
               <Nav.Link href="/" className="logo"><Image src={LogoJussi} alt="" /></Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link eventKey="link-1" className="link">Nossas soluções</Nav.Link>
+              <AnchorLink href='#solutions' className="link nav-link">Nossas soluções</AnchorLink>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link eventKey="link-2" className="link">Conheça a Jussi</Nav.Link>
+              <AnchorLink href='#about' className="link nav-link">Conheça a Jussi</AnchorLink>
             </Nav.Item>
           </Nav>
         </Col>
@@ -30,10 +31,10 @@ export const Header = () => {
               <Search />
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link eventKey="link-1" className="link">Login</Nav.Link>
+              <Nav.Link className="link">Login</Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link eventKey="link-2" className="icon"><FiShoppingCart /></Nav.Link>
+              <Nav.Link className="icon"><FiShoppingCart /></Nav.Link>
             </Nav.Item>
           </Nav>
         </Col>
