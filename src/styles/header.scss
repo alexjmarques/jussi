@@ -1,0 +1,123 @@
+.header {
+  width: 100%;
+  padding: 20px 30px;
+  background-color: var(--white);
+
+  .RightContent,
+  .LeftContent {
+    display: flex;
+    align-items: center;
+
+    .nav-item {
+      a {
+        font-size: 18px;
+        line-height: 24px;
+        font-weight: 500;
+        color: var(--black);
+
+        &.link {
+          padding: 15px 25px;
+        }
+
+        &.logo {
+          padding: 0;
+
+          img {
+            height: 50px;
+            width: auto;
+          }
+        }
+      }
+
+    }
+
+  }
+
+  .RightContent {
+    display: flex;
+    align-items: stretch;
+    padding: 0;
+
+    .icon {
+      padding-top: 15px;
+      padding-bottom: 0;
+
+      svg {
+        width: 24px;
+        height: 24px;
+      }
+    }
+
+    .searchForm {
+      margin-top: 0px;
+      padding: 0;
+
+
+      div {
+        display: flex;
+        border: 1px solid var(--grey);
+        border-radius: 24px;
+
+        input {
+          padding: 10px;
+          border: none;
+          color: var(--black);
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 24px;
+          letter-spacing: 0em;
+          text-align: left;
+          border-radius: 0;
+          background-color: var(--white);
+
+          &::placeholder {
+            color: var(--pink);
+            opacity: 1;
+          }
+
+          &:-ms-input-placeholder {
+            color: var(--pink);
+          }
+
+          &::-ms-input-placeholder {
+            color: var(--pink);
+          }
+
+          &:focus {
+            border-color: inherit;
+            -webkit-box-shadow: none;
+            box-shadow: none;
+          }
+        }
+
+        button {
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 40px;
+          letter-spacing: 0em;
+          text-align: left;
+          color: var(--green);
+          background: transparent;
+          border: transparent;
+          border-radius: 50%;
+
+
+          svg {
+            width: 25px;
+            height: 25px;
+            color: var(--black);
+          }
+
+          &:focus,
+          &:hover {
+            outline: none;
+            background: var(--grey);
+            border: var(--grey);
+          }
+        }
+      }
+    }
+  }
+}

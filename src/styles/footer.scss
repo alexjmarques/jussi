@@ -1,0 +1,24 @@
+.footer {
+  background-color: var(--black);
+  padding: 20px;
+
+  .col {
+    padding: 5px 0 0 0;
+  }
+
+  .socialFooter {
+    padding: 0;
+    list-style: none;
+    float: right;
+
+    li {
+      display: inline;
+      padding: 10px;
+
+      svg {
+        width: 34px;
+        fill: var(--white);
+      }
+    }
+  }
+}

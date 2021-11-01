@@ -1,0 +1,66 @@
+.about {
+  padding: 65px 20px;
+  background: #f2f2f2;
+  background: -moz-linear-gradient(left, var(--white) 50%, var(--grey) 50%, var(--grey) 50%, var(--grey) 100%);
+  background: -webkit-linear-gradient(left, var(--white) 50%, var(--grey) 50%, var(--grey) 50%, var(--grey) 100%);
+  background: linear-gradient(to right, var(--white) 50%, var(--grey) 50%, var(--grey) 50%, var(--grey) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='var(--white)', endColorstr='var(--grey)', GradientType=1);
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+
+  .aboutText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    height: 100%;
+    min-height: 400px;
+    max-height: 480px;
+    padding: 5px 0 0 0;
+    padding-right: 10%;
+
+    h1 {
+      font-size: 32px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 40px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: var(--black);
+      text-transform: uppercase;
+      margin-bottom: 20px;
+      padding-right: 40px;
+    }
+
+    p {
+      font-size: 16px;
+      font-style: normal;
+
+      font-weight: 300;
+      line-height: 24px;
+      letter-spacing: 0em;
+    }
+
+    button,
+    a {
+      margin-top: 5px;
+      padding: 10px;
+      width: 100%;
+      font-weight: 500;
+      max-width: 160px;
+      border: 1px solid var(--black);
+      border-radius: 8px;
+      color: var(--black);
+      background-color: var(--white);
+
+      &:hover {
+        background-color: var(--green);
+        border-color: var(--green);
+      }
+    }
+  }
+}

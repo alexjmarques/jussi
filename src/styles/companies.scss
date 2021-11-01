@@ -1,0 +1,113 @@
+.companies {
+  background-color: var(--grey);
+  padding: 20px;
+
+  .LeftContent {
+    display: flex;
+    align-items: center;
+
+    h4 {
+      font-size: 16px;
+      line-height: 24px;
+      font-weight: 500;
+      margin: 0;
+    }
+
+
+  }
+
+  .RightContent {
+    display: flex;
+    align-items: center;
+
+
+    img {
+      margin: 0 0 0 15px;
+      flex-grow: 1;
+    }
+  }
+
+  .newsCenter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    height: 430px;
+    padding: 5px 15px 0 15px;
+
+    h1 {
+      font-size: 32px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 40px;
+      letter-spacing: 0em;
+      text-align: center;
+      color: var(--white);
+      text-transform: uppercase;
+      margin-bottom: 20px;
+    }
+
+    .newsForm {
+      margin-top: 10px;
+      padding: 0 30px;
+
+
+      div {
+        display: flex;
+        border-bottom: 1px solid var(--green);
+
+        input {
+          padding: 20px;
+          border: none;
+          color: var(--white);
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 24px;
+          letter-spacing: 0em;
+          text-align: left;
+          border-radius: 0;
+          background-color: var(--black);
+
+          &::placeholder {
+            color: var(--white);
+            opacity: 1;
+          }
+
+          &:-ms-input-placeholder {
+            color: var(--white);
+          }
+
+          &::-ms-input-placeholder {
+            color: var(--white);
+          }
+
+          &:focus {
+            border-color: inherit;
+            -webkit-box-shadow: none;
+            box-shadow: none;
+          }
+        }
+
+        button {
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 40px;
+          letter-spacing: 0em;
+          text-align: left;
+          color: var(--green);
+          background: transparent;
+          border: transparent;
+          border-radius: 0;
+
+          &:hover {
+            color: var(--black);
+            background: var(--green);
+            border: var(--green);
+          }
+        }
+      }
+    }
+  }
+}
