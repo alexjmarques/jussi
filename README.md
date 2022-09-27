@@ -8,7 +8,7 @@
 
 Desafio proposto pela [Jüssi](https://jussi.com.br/).
 
-O desafio consiste na criação de uma **Landing page** a partir de um layout proposto no [Figma](https://www.figma.com/file/O9AEeYB6ZWyMTZzMZhvjaY/loja-vtex-jussi?node-id=0%3A1). Utilizando React e TypeScrypt como base do projeto, com uma busca do header sendo usado a API do [Tv Maze](https://www.tvmaze.com/ap) para a busca e exibição de Informações de pessoas em um modal.
+O desafio consiste na criação de uma **Landing page** a partir de um layout proposto no [Figma](https://www.figma.com/file/O9AEeYB6ZWyMTZzMZhvjaY/loja-vtex-jussi?node-id=0%3A1). Utilizando React e TypeScrypt como base do projeto, com uma busca do header sendo usado a API do [Tv Maze](https://www.tvmaze.com/api) para a busca e exibição de Informações de pessoas em um modal.
 
 ## Tecnologias ​⚙ ​<a name="tec" />
 
